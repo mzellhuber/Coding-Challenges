@@ -29,7 +29,6 @@
 
    (c) 2018 Melissa Zellhuber, All Rights Reserved.
 """
-from operator import itemgetter
 
 names = ["Edward VII","Richard II","Richard III", "Henry II","Richard X","Albert II","Polo IV","Alexander V","Elizabeth XXV","Albert XL","Polo XLVI","William IX","Edward XXXIX","Elizabeth XIX"]
 
@@ -42,9 +41,6 @@ class Royal:
 	def __str__(self):
 		string = self.name +" "+ str(self.rankA)
 		return str(string)
-
-	def __eq__(self, other):
-		return self.name == other.name and self.rankA == other.rankA
 
 def sortRoyalNames(names):
 	royals = []
