@@ -2,7 +2,7 @@
 	-Splitting Pixels-
 	Consider a sequence of 24 bits defining a pixel, where the leftmost 8 bits describe its red component, the middle 8 bits describe its green component and the rightmost 8 bits describe its blue component. The pizel's red, green, and blue components are in the inclusive range from decimal 0 (binary 00000000) to decimal 255 (binary 11111111).
 
-	We want to determine whether the pizel's color is geometrically closest to pure red, green, blue, white, or black. The formula for calculating the geometric distance between two colors with RGB components(r2,g2,b2) is:
+	We want to determine whether the pixel's color is geometrically closest to pure red, green, blue, white, or black. The formula for calculating the geometric distance between two colors with RGB components(r2,g2,b2) is:
 
 		d=sqrt((r1-r2)^2+(g1-g2)^2+(b1-b2)^2)
 
